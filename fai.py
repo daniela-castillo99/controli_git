@@ -36,7 +36,7 @@ def get_rms( block ):
     # a string of 16-bit samples...
 
     # we will get one short out for each 
-    # two chars in the string.
+ 
     count = len(block)/2
     format = "%dh"%(count)
     shorts = struct.unpack( format, block )
