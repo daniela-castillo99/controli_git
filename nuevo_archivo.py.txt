@@ -1,1 +1,3 @@
 print ('hola compañerxs')
+print ('hola amiges')
+
